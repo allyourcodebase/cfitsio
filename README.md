@@ -21,7 +21,7 @@ const cfitsio_dep = b.dependency("cfitsio", .{
     .optimize = optimize,
 });
 const cfitsio_mod = cfitsio_dep.module("cfitsio");
-<compile>.root_module.addImport("cfitsio", cfitsio_mod);;
+<compile>.root_module.addImport("cfitsio", cfitsio_mod);
 ```
 
 <!-- MARKDOWN LINKS -->
