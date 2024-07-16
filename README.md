@@ -13,7 +13,7 @@
 zig fetch --save https://github.com/tensorush/cfitsio/archive/<git_tag_or_commit_hash>.tar.gz
 ```
 
-- Use `cfitsio` as a module in your `build.zig`.
+- Use `cfitsio` dependency in `build.zig`.
 
 ```zig
 const cfitsio_dep = b.dependency("cfitsio", .{
