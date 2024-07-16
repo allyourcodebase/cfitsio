@@ -1,0 +1,18 @@
+.{
+    .name = "cfitsio",
+    .version = "4.4.1",
+    .minimum_zig_version = "0.13.0",
+    .dependencies = .{
+        .cfitsio = .{
+            .url = "https://github.com/HEASARC/cfitsio/archive/cfitsio4_4_1_20240617.tar.gz",
+            .hash = "1220d9b5104c0d9cd8158f52ce64d891eb76a083b43962aed62c611addb920e5a9bb",
+        },
+    },
+    .paths = .{
+        "src/",
+        "build.zig",
+        "build.zig.zon",
+        "LICENSE",
+        "README.md",
+    },
+}
