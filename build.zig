@@ -6,8 +6,8 @@ pub fn build(b: *std.Build) void {
     const version = std.SemanticVersion{ .major = 4, .minor = 4, .patch = 1 };
 
     // Custom options
-    const use_curl = b.option(bool, "use-curl", "Enable remote file access") orelse false;
-    const use_bz2 = b.option(bool, "use-bz2", "Enable reading bzip2-compressed files") orelse false;
+    const use_curl = b.option(bool, "use_curl", "Enable remote file access") orelse false;
+    const use_bz2 = b.option(bool, "use_bz2", "Enable reading bzip2-compressed files") orelse false;
 
     // Dependencies
     const cfitsio_dep = b.dependency("cfitsio", .{});
