@@ -139,6 +139,6 @@ const SOURCES = .{
 };
 
 const FLAGS = .{
-    "-std=c89",
+    "-std=gnu89",
     "-D_REENTRANT",
 };
