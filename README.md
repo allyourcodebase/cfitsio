@@ -10,7 +10,7 @@
 - Add `cfitsio` dependency to `build.zig.zon`.
 
 ```sh
-zig fetch --save https://github.com/tensorush/cfitsio/archive/<git_tag_or_commit_hash>.tar.gz
+zig fetch --save https://github.com/allyourcodebase/cfitsio/archive/<git_tag_or_commit_hash>.tar.gz
 ```
 
 - Use `cfitsio` dependency in `build.zig`.
@@ -26,7 +26,7 @@ const cfitsio_mod = cfitsio_dep.module("cfitsio");
 
 <!-- MARKDOWN LINKS -->
 
-[ci-shd]: https://img.shields.io/github/actions/workflow/status/tensorush/cfitsio/ci.yaml?branch=main&style=for-the-badge&logo=github&label=CI&labelColor=black
-[ci-url]: https://github.com/tensorush/cfitsio/blob/main/.github/workflows/ci.yaml
-[lc-shd]: https://img.shields.io/github/license/tensorush/cfitsio.svg?style=for-the-badge&labelColor=black
-[lc-url]: https://github.com/tensorush/cfitsio/blob/main/LICENSE
+[ci-shd]: https://img.shields.io/github/actions/workflow/status/allyourcodebase/cfitsio/ci.yaml?branch=main&style=for-the-badge&logo=github&label=CI&labelColor=black
+[ci-url]: https://github.com/allyourcodebase/cfitsio/blob/main/.github/workflows/ci.yaml
+[lc-shd]: https://img.shields.io/github/license/allyourcodebase/cfitsio.svg?style=for-the-badge&labelColor=black
+[lc-url]: https://github.com/allyourcodebase/cfitsio/blob/main/LICENSE
