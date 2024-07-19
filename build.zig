@@ -23,7 +23,7 @@ pub fn build(b: *std.Build) void {
         .optimize = optimize,
     });
 
-    var flags = std.BoundedArray([]const u8, 3){};
+    var flags = std.BoundedArray([]const u8, 6){};
     flags.appendSliceAssumeCapacity(&FLAGS);
     if (target.result.cpu.arch.isX86()) {
         flags.appendSliceAssumeCapacity(&.{ "-msse2", "-mssse3" });
