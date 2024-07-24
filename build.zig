@@ -144,4 +144,6 @@ const SOURCES = .{
 const FLAGS = .{
     "-std=gnu89",
     "-D_REENTRANT",
+    "-fsanitize=undefined",
+    "-fsanitize-trap=undefined",
 };

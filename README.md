@@ -3,7 +3,7 @@
 [![CI][ci-shd]][ci-url]
 [![LC][lc-shd]][lc-url]
 
-## Zig build of [CFITSIO library](https://github.com/HEASARC/cfitsio).
+## Zig build of [cfitsio library](https://github.com/HEASARC/cfitsio).
 
 ### :rocket: Usage
 
